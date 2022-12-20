@@ -1,0 +1,21 @@
+.recipeTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.recipeTile__image {
+    height: 200px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.recipeTile__name {
+    text-align: center;
+    max-width: 200px;
+    margin: 12px 0 ; 
+}

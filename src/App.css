@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 30px solid orange;
+  padding: 40px 24px;
+}
+
+.pp__searchForm{
+  margin-top: 17px;
+}
+
+.app__input {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  border-radius: 15px;
+  font-size: 17px;
+}
+
+.app__submit {
+  padding: 6px 16px;
+  border-radius: 15px;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer; 
+}
+@media screen and (max-width:776px) {
+  .pp__searchForm,
+  .app__input {
+    width: 100px;
+  }
+  .app__submit {
+    margin-top: 10px;
+    margin-left: 40%;
+  }
+  .app__submit:hover {
+    padding: 6px 16px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    margin-left: 40%;
+    cursor: pointer; 
+  }
+}
+@media screen and (min-width:776px) {
+  .app__submit:hover{
+    margin-left: 10px;
+  }
+}
+.app__submit:hover {
+  padding: 6px 16px;
+  border-radius: 15px;
+  background-color: white;
+  border: 2px solid green;
+  color: green;
+  cursor: pointer; 
+}
+
+.app__healthLabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 14px;
+  font-size: 17px;
+}
+
+.app__recipes {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 220px 220px;
+  align-items: baseline;
+}
