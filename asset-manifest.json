@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecipe-app/static/css/main.45b24e07.css",
+    "main.js": "/ecipe-app/static/js/main.639ed5c1.js",
+    "static/js/787.63e107a5.chunk.js": "/ecipe-app/static/js/787.63e107a5.chunk.js",
+    "index.html": "/ecipe-app/index.html",
+    "main.45b24e07.css.map": "/ecipe-app/static/css/main.45b24e07.css.map",
+    "main.639ed5c1.js.map": "/ecipe-app/static/js/main.639ed5c1.js.map",
+    "787.63e107a5.chunk.js.map": "/ecipe-app/static/js/787.63e107a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b24e07.css",
+    "static/js/main.639ed5c1.js"
+  ]
+}
